@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity.template.vr"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="32"
+10        android:targetSdkVersion="35" />
+11
+12    <supports-screens
+12-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-64
+20
+21    <uses-feature
+21-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-12:35
+22        android:name="android.hardware.vulkan.version"
+22-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:9-55
+23        android:required="true" />
+23-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:9-32
+24    <uses-feature
+24-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:5-15:36
+25        android:name="android.hardware.touchscreen"
+25-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:9-52
+26        android:required="false" />
+26-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:9-33
+27    <uses-feature
+27-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:5-18:36
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:9-63
+29        android:required="false" />
+29-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:9-33
+30    <uses-feature
+30-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:5-21:36
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:9-72
+32        android:required="false" />
+32-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:9-33
+33
+34    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+34-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:5-75
+34-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:22-72
+35
+36    <uses-feature
+36-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:5-27:36
+37        android:name="oculus.software.handtracking"
+37-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-52
+38        android:required="false" />
+38-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:9-33
+39    <uses-feature
+39-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-10:31
+40        android:name="android.hardware.vr.headtracking"
+40-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-56
+41        android:required="true"
+41-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:9-32
+42        android:version="1" />
+42-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:9-28
+43    <uses-feature
+43-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:5-13:35
+44        android:name="oculus.software.eye_tracking"
+44-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:9-52
+45        android:required="true" />
+45-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:9-32
+46
+47    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+47-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:5-74
+47-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:22-71
+48
+49    <permission
+49-->[androidx.core:core:1.9.0] /Users/shaase/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+50        android:name="com.unity.template.vr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+50-->[androidx.core:core:1.9.0] /Users/shaase/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+51        android:protectionLevel="signature" />
+51-->[androidx.core:core:1.9.0] /Users/shaase/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+52
+53    <uses-permission android:name="com.unity.template.vr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+53-->[androidx.core:core:1.9.0] /Users/shaase/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+53-->[androidx.core:core:1.9.0] /Users/shaase/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+54
+55    <application
+55-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.9.0] /Users/shaase/.gradle/caches/transforms-3/c919e84cf21a5073ea88f45ff1a29b85/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+57        android:enableOnBackInvokedCallback="false"
+57-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:9-52
+58        android:extractNativeLibs="true"
+59        android:icon="@mipmap/app_icon"
+59-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-47
+60        android:label="@string/app_name" >
+60-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:48-80
+61        <meta-data
+61-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:9-34:33
+62            android:name="unity.splash-mode"
+62-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:13-45
+63            android:value="0" />
+63-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:13-30
+64        <meta-data
+64-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:9-37:36
+65            android:name="unity.splash-enable"
+65-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:13-47
+66            android:value="True" />
+66-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:13-33
+67        <meta-data
+67-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:9-40:36
+68            android:name="unity.launch-fullscreen"
+68-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:13-51
+69            android:value="True" />
+69-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:13-33
+70        <meta-data
+70-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:9-43:36
+71            android:name="unity.render-outside-safearea"
+71-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:13-57
+72            android:value="True" />
+72-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:13-33
+73        <meta-data
+73-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:9-46:50
+74            android:name="notch.config"
+74-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:13-40
+75            android:value="portrait|landscape" />
+75-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:13-47
+76        <meta-data
+76-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:9-49:36
+77            android:name="unity.auto-report-fully-drawn"
+77-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:13-57
+78            android:value="true" />
+78-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:13-33
+79        <meta-data
+79-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:9-52:36
+80            android:name="unity.auto-set-game-state"
+80-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:13-53
+81            android:value="true" />
+81-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:52:13-33
+82        <meta-data
+82-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:9-55:36
+83            android:name="unity.strip-engine-code"
+83-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:13-51
+84            android:value="true" />
+84-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:13-33
+85
+86        <activity
+86-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:9-90:20
+87            android:name="com.unity3d.player.UnityPlayerGameActivity"
+87-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:13-70
+88            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+88-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:13-194
+89            android:enabled="true"
+89-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:13-35
+90            android:exported="true"
+90-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-36
+91            android:hardwareAccelerated="false"
+91-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:13-48
+92            android:launchMode="singleTask"
+92-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:13-44
+93            android:resizeableActivity="true"
+93-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:13-46
+94            android:screenOrientation="fullUser"
+94-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:65:13-49
+95            android:theme="@style/BaseUnityGameActivityTheme" >
+95-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:13-62
+96            <intent-filter>
+96-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:13-73:29
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:68:17-77
+97-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:68:27-74
+98
+99                <action android:name="android.intent.action.MAIN" />
+99-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:17-69
+99-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:25-66
+100
+101                <category android:name="com.oculus.intent.category.VR" />
+101-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:17-74
+101-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:27-71
+102            </intent-filter>
+103
+104            <meta-data
+104-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:13-77:40
+105                android:name="unityplayer.UnityActivity"
+105-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:17-57
+106                android:value="true" />
+106-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-37
+107            <meta-data
+107-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:13-80:40
+108                android:name="android.app.lib_name"
+108-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:17-52
+109                android:value="game" />
+109-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:17-37
+110            <meta-data
+110-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:13-83:71
+111                android:name="WindowManagerPreference:FreeformWindowSize"
+111-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:17-74
+112                android:value="@string/FreeformWindowSize_maximize" />
+112-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-68
+113            <meta-data
+113-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:13-86:79
+114                android:name="WindowManagerPreference:FreeformWindowOrientation"
+114-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:85:17-81
+115                android:value="@string/FreeformWindowOrientation_landscape" />
+115-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:17-76
+116            <meta-data
+116-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:13-89:40
+117                android:name="notch_support"
+117-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:88:17-45
+118                android:value="true" />
+118-->[:unityLibrary] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:89:17-37
+119            <meta-data
+119-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-23:40
+120                android:name="com.oculus.vr.focusaware"
+120-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:17-56
+121                android:value="true" />
+121-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:17-37
+122        </activity>
+123
+124        <meta-data
+124-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-28:67
+125            android:name="com.oculus.supportedDevices"
+125-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:13-55
+126            android:value="quest|quest2|cambria|eureka|quest3s" />
+126-->[:unityLibrary:xrmanifest.androidlib] /Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-64
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+130            android:authorities="com.unity.template.vr.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] /Users/shaase/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shaase/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shaase/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shaase/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+138        </provider>
+139    </application>
+140
+141</manifest>

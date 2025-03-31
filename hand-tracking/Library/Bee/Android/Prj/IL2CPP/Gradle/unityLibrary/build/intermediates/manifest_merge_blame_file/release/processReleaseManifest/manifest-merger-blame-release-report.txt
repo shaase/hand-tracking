@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="32" />
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+8-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+9
+10    <uses-feature
+10-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-90
+11        android:name="android.hardware.vulkan.version"
+11-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:17-63
+12        android:required="true" />
+12-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:64-87
+13    <uses-feature
+13-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-88
+14        android:name="android.hardware.touchscreen"
+14-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:17-60
+15        android:required="false" />
+15-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:61-85
+16    <uses-feature
+16-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-99
+17        android:name="android.hardware.touchscreen.multitouch"
+17-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-71
+18        android:required="false" />
+18-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:72-96
+19    <uses-feature
+19-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-108
+20        android:name="android.hardware.touchscreen.multitouch.distinct"
+20-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-80
+21        android:required="false" />
+21-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:81-105
+22
+23    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+23-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-73
+23-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:20-70
+24
+25    <uses-feature
+25-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-88
+26        android:name="oculus.software.handtracking"
+26-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:17-60
+27        android:required="false" />
+27-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:61-85
+28
+29    <application
+29-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-29:17
+30        android:enableOnBackInvokedCallback="false"
+30-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:16-59
+31        android:extractNativeLibs="true" >
+31-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:60-92
+32        <meta-data
+32-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:5-69
+33            android:name="unity.splash-mode"
+33-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-48
+34            android:value="0" />
+34-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:49-66
+35        <meta-data
+35-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-74
+36            android:name="unity.splash-enable"
+36-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-50
+37            android:value="True" />
+37-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:51-71
+38        <meta-data
+38-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-78
+39            android:name="unity.launch-fullscreen"
+39-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-54
+40            android:value="True" />
+40-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+41        <meta-data
+41-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-84
+42            android:name="unity.render-outside-safearea"
+42-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-60
+43            android:value="True" />
+43-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:61-81
+44        <meta-data
+44-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-81
+45            android:name="notch.config"
+45-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-43
+46            android:value="portrait|landscape" />
+46-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:44-78
+47        <meta-data
+47-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-84
+48            android:name="unity.auto-report-fully-drawn"
+48-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-60
+49            android:value="true" />
+49-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:61-81
+50        <meta-data
+50-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-80
+51            android:name="unity.auto-set-game-state"
+51-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-56
+52            android:value="true" />
+52-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:57-77
+53        <meta-data
+53-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+54            android:name="unity.strip-engine-code"
+54-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+55            android:value="true" />
+55-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+56
+57        <activity
+57-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-28:16
+58            android:name="com.unity3d.player.UnityPlayerGameActivity"
+58-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:312-369
+59            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+59-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:15-196
+60            android:enabled="true"
+60-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:197-219
+61            android:exported="true"
+61-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:220-243
+62            android:hardwareAccelerated="false"
+62-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:244-279
+63            android:launchMode="singleTask"
+63-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:280-311
+64            android:resizeableActivity="true"
+64-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:370-403
+65            android:screenOrientation="fullUser"
+65-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:404-440
+66            android:theme="@style/BaseUnityGameActivityTheme" >
+66-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:441-490
+67            <intent-filter>
+67-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:7-22:23
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:9-69
+68-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:19-66
+69
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-61
+70-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-58
+71
+72                <category android:name="com.oculus.intent.category.VR" />
+72-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-66
+72-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:19-63
+73            </intent-filter>
+74
+75            <meta-data
+75-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:7-82
+76                android:name="unityplayer.UnityActivity"
+76-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:18-58
+77                android:value="true" />
+77-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:59-79
+78            <meta-data
+78-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:7-77
+79                android:name="android.app.lib_name"
+79-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:18-53
+80                android:value="game" />
+80-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:54-74
+81            <meta-data
+81-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-130
+82                android:name="WindowManagerPreference:FreeformWindowSize"
+82-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:18-75
+83                android:value="@string/FreeformWindowSize_maximize" />
+83-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:76-127
+84            <meta-data
+84-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:7-145
+85                android:name="WindowManagerPreference:FreeformWindowOrientation"
+85-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:18-82
+86                android:value="@string/FreeformWindowOrientation_landscape" />
+86-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:83-142
+87            <meta-data
+87-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:7-70
+88                android:name="notch_support"
+88-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:18-46
+89                android:value="true" />
+89-->/Users/shaase/projects/novartis/hand-tracking/hand-tracking/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:47-67
+90        </activity>
+91    </application>
+92
+93</manifest>
